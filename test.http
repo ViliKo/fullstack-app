@@ -1,0 +1,18 @@
+
+### POST: Create a new location
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+  "id": 7,
+  "name": "Ludwig"
+}
+
+### GET: Retrieve all locations
+GET http://localhost:3000/customers
+
+### GET: Retrieve location with id of 1
+GET http://localhost:3000/customers/2
+
+### DELETE: Remove a specific location by ID
+DELETE http://localhost:3000/customers/1
